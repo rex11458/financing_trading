@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='QuantitativeTrading',
+    name='financingtrading',
     version='1.0',
     author='Rex Liu',
     author_email='rexwp11458@gmail.com',
@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'trading = app.main:start',
+            'ftrading = app.main:start',
             ]
         }
 )

@@ -32,6 +32,7 @@ class Trade:
         print 'url:', url
         r = check_response(response)
         globa_hold = r
+        print r
         print '*' * 50
         print('\033[0m')
         return r
@@ -48,7 +49,7 @@ class Trade:
         # 委托价格
         buyPrice = round(float(restingPrice) * 1.02, 2)
         # 配置总额
-        pv = 10000
+        pv = 20000
         # 杠杆倍数
         v = 10
         # 保证金

@@ -1,0 +1,3 @@
+[console_scripts]
+ftrading = app.main:start
+
